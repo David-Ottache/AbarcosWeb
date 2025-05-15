@@ -3,7 +3,8 @@ import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    
+    <div className ="flex flex-col items-center mt-6 lg:mt-20" id="Home">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         Innovating
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
@@ -18,12 +19,12 @@ Our commitment to excellence drives everything we do.
       </p>
       <div className="flex justify-center my-10">
         <a
-          href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          href="#Aboutus"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md hover:opacity-80 transition duration-300"
         >
           Learn More
         </a>
-        <a href="#contact" className="py-3 px-4 mx-3 rounded-md border">
+        <a href="#contact" className="py-3 px-4 mx-3 rounded-md border hover:bg-gray-300 hover:text-black transition duration-300">
           Contact Us
         </a>
       </div>
@@ -48,6 +49,7 @@ Our commitment to excellence drives everything we do.
         </video>
       </div>
     </div>
+    
   );
 };
 

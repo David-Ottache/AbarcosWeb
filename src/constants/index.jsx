@@ -118,7 +118,7 @@ export const aboutitems = [
     description: [
       "Founded in 2022, Our startup was born with a vision to create innovative solutions that address real-world challenges. We believe in the power of technology to transform industries and improve lives.  ",
 
-      "Our team of experts combines deep technical knowledge with industry expertise to deliver cutting-edge products and services that exceed expectations.",
+      "Our team of experts combine deep technical knowledge with industry expertise to deliver cutting-edge products and services that exceed expectations.",
     ],
   },
 
@@ -174,12 +174,12 @@ export const contactInfo = [
   {
     icon: <MapPin className="h-6 w-6 text-orange-600" />,
     title: "Our Location",
-    details: "123 Innovation Drive, Tech City, CA 94043",
+    details: "Plot 17, Paricsam Pharmacy, Opposite St. Monica’s Catholic Church Junction, Jos, Plateau State, Nigeria",
   },
   {
     icon: <Phone className="h-6 w-6 text-orange-600" />,
     title: "Phone Number",
-    details: "+1 (555) 123-4567",
+    details: "+234-9030128598",
   },
   {
     icon: <Mail className="h-6 w-6 text-orange-600" />,
@@ -198,10 +198,10 @@ export const socialLinks = [
 ]
 
 export const footerLinks = [
-  { name: "Home", to: "home" },
-  { name: "About", to: "about" },
-  { name: "Services", to: "services" },
-  { name: "Products", to: "products" },
+  { name: "Home", to: "Home" },
+  { name: "About", to: "Aboutus" },
+  { name: "Services", to: "featureSection" },
+  { name: "Products", to: "productsection" },
   { name: "Team", to: "team" },
   { name: "Contact", to: "contact" },
 ]
